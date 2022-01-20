@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+}
+
+.title-text {
+    font: 600 1.875rem/2.25rem Poppins, sans-serif;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+}
+
+.name-text {
+    font: 500 1.125rem/1.75rem Poppins, sans-serif;
+    color: #ffffff;
+}
+
+.caption-text {
+    font: 400 0.875rem/1.75rem Poppins, sans-serif;
+    color: #9f9eaa;
+}
