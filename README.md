@@ -9,6 +9,6 @@
 
 ## Belajar Laravel
 
-Nama    : Faza Bilwildi Emyu
-Absen   : 14
+Nama    : Faza Bilwildi Emyu,
+Absen   : 14,
 Kelas   : XIRPL7
