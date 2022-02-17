@@ -18,7 +18,14 @@
                 <li class="nav-item">
                 <a class="nav-link {{ ( $title === 'Contacts Us') ? 'active' : '' }}" href="/contacts">Contacts Us</a>
                 </li>   
-                
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route ('login')}}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route ('register')}}">Register</a>
+                </li>
             </ul>
             </div>
         </div>
