@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Faza | {{ $title }}</title>
   </head>
-  <body style= "background-color: #232130">
+  <body>
     
     @include('partials.navbar')
 
