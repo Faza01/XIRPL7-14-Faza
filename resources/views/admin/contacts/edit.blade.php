@@ -30,7 +30,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="nf-password" class=" form-control-label">Pesan</label>
-                                                <textarea name="name" class="form-control">{{ $contact->pesan}}</textarea>
+                                                <textarea name="pesan" class="form-control">{{ $contact->pesan}}</textarea>
                                             </div>
                                             <div class="card-footer">
                                                 <button type="submit" class="btn btn-primary btn-sm">
