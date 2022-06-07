@@ -81,20 +81,20 @@ class ContactController extends Controller
         $contact->update($request->all());
         $contact->save();
 
-        return redirect()->route('contacts.indes');
+        return redirect()->route('contacts.index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @zreturn \Illuminate\Http\Response
      */
     public function destroy($id)
     {
         $contact = Contact::findOrFail($id);
         $contact->delete();
 
-        return redirect()->route('contacts.indes');
+        return redirect()->route('contacts.index');
     }
 }
